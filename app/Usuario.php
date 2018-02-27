@@ -14,7 +14,6 @@ class Usuario extends Model
         'cpf',
         'data_nascimento',
         'password',
-        'admin',
         'ativo'
     ];
     

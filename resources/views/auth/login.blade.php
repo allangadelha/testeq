@@ -125,19 +125,10 @@
                                 <div class="form-group">
                                     {!! Form::password('password', ['class'=> 'form-control','placeholder'=> 'Senha']) !!}
                                 </div>
-                                <div class="checkbox">
-
-                                    <label>
-                                        <input name="remember" type="checkbox" value="Remember Me"  >Lembrar-me
-                                    </label>
-                                </div>
-                                <button type="submit" class="btn btn-primary col col-lg-4">
+                                <button type="submit" class="btn btn-primary col col-lg-12">
                                     <i class="fa fa-btn fa-sign-in"></i>
                                     ENTRAR
                                 </button>
-                                <a href="{{url('password/reset')}}" class="col col-lg-8" style="text-align: right !important">
-                                    Esqueceu sua senha?
-                                </a>
                             </fieldset>
 
                             {{--<span class="links" style="text-align: center;"><a href="{{route('auth/register')}}">Registre-se </a> |</span>--}}

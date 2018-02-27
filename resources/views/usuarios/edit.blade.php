@@ -25,26 +25,26 @@ Editar Usuário
      
     <div class="row">
         {{-- Campo Nome --}} 
-        <div class="form-group col-lg-4"> 
+        <div class="form-group col-lg-7"> 
             {!! Form::label('name', 'Nome: ') !!}
             {!! Form::text('name', null, ['class'=>'form-control']) !!}
         </div>
 
         {{-- Campo E-mail --}}  
-        <div class="form-group col-lg-4"> 
+        <div class="form-group col-lg-5"> 
             {!! Form::label('email', 'E-mail: ') !!}
             {!! Form::text('email', null, ['class'=>'form-control']) !!}
         </div>
-
+    </div>
+    
+    <div class="row">
         {{-- Campo CPF --}}  
         <div class="form-group col-lg-4"> 
             {!! Form::label('cpf', 'CPF: ') !!}
             {!! Form::text('cpf', null, ['class'=>'form-control cpf']) !!}
         </div>
-    </div>
-    
-    <div class="row">
-    {{-- Campo Data de Nascimento --}}  
+        
+        {{-- Campo Data de Nascimento --}}  
         <div class="form-group col-lg-4"> 
             <label>Data de Nascimento:</label>
 
@@ -60,13 +60,7 @@ Editar Usuário
         <div class="form-group col-lg-4"> 
             {!! Form::label('ativo', 'Ativo ') !!}
             {!! Form::select('ativo', ['Sim' => 'Sim', 'Não' => 'Não'], null, ['class'=>'form-control']) !!}
-        </div> 
-
-        {{-- Campo Administrador --}}  
-        <div class="form-group col-lg-4"> 
-            {!! Form::label('admin', 'Administrador') !!}
-            {!! Form::select('admin', ['Sim' => 'Sim', 'Não' => 'Não'], null, ['class'=>'form-control']) !!}
-        </div> 
+        </div>  
     </div>
     
     <div class="row">

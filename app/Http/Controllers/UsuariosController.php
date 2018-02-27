@@ -36,7 +36,6 @@ class UsuariosController extends Controller
         $email              = $request->email;
         $cpf                = $request->cpf;
         $data_nascimento    = dataPTbrToDb($request->data_nascimento);
-        $admin              = $request->admin;
         $ativo              = $request->ativo;
         $password           = bcrypt($request->password);
                    
@@ -45,7 +44,6 @@ class UsuariosController extends Controller
             'email'             => $email,
             'cpf'               => $cpf,
             'data_nascimento'   => $data_nascimento,
-            'admin'             => $admin,
             'ativo'             => $ativo,
             'password'          => $password
             
@@ -69,7 +67,6 @@ class UsuariosController extends Controller
         $email              = $request->email;
         $cpf                = $request->cpf;
         $data_nascimento    = dataPTbrToDb($request->data_nascimento);
-        $admin              = $request->admin;
         $ativo              = $request->ativo;
         $password           = bcrypt($request->password);
                 
@@ -78,7 +75,6 @@ class UsuariosController extends Controller
             'email'             => $email,
             'cpf'               => $cpf,
             'data_nascimento'   => $data_nascimento,
-            'admin'             => $admin,
             'ativo'             => $ativo,
             'password'          => $password
         ]);

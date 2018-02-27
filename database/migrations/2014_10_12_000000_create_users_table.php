@@ -19,7 +19,6 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('cpf', 14)->unique();
             $table->date('data_nascimento');
-            $table->char('admin', 3);
             $table->char('ativo', 3);
             $table->string('password');
             $table->rememberToken();

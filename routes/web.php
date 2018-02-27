@@ -15,13 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('auth/logout', function(){
-        \Auth::logout(); 
-        return redirect(property_exists($this, 'redirectAfterLogout') ? $this->redirectAfterLogout : '/login');
-});
     
 Route::get('/', 'UsuariosController@index');
-//Route::get('', ['as' => 'usuarios', 'uses' => 'UsuariosController@index']);
 Route::group(['prefix' => 'usuarios'], function(){
     Route::get('', ['as' => 'usuarios', 'uses' => 'UsuariosController@index']);
     Route::get('show', ['as' => 'usuarios.show', 'uses' => 'UsuariosController@show']);
@@ -35,4 +30,3 @@ Route::group(['prefix' => 'usuarios'], function(){
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-//Route::get('/login', 'HomeController@index')->name('home');
