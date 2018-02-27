@@ -1,0 +1,195 @@
+.nome-dente{
+    color: white !important;
+    display: inline-block !important;
+    float: right !important;
+    font-size: 8px !important;
+    height: 10px;
+    margin-top: 5px !important;
+    padding: 0 10px !important;
+    text-align: cente !important;
+    width: 50% !important;
+}
+
+.leg-dente{
+    display: inline-block !important;
+    width: 18% !important;
+}
+
+span.color-carie{    
+    background: orangered;
+    color: orangered !important;
+}
+
+span.color-rest{    
+    background: blue;
+    color: blue !important;
+}
+
+span.color-exodontia{
+    background: #333;
+    color: #333 !important;
+}
+
+span.color-canal{    
+    background: green;
+    color: green !important;
+}
+
+span.color-outros{    
+    background: red;
+    color: red !important;
+}
+
+span.color-leg-carie{    
+    background: orangered;
+    color: orangered !important;
+    display: inline-block !important;
+    width: 30% !important;
+}
+
+span.color-leg-rest{    
+    background: blue;
+    color: blue !important;
+    display: inline-block !important;
+    width: 30% !important;
+}
+
+span.color-leg-exodontia{
+    background: #333;
+    color: #333 !important;
+    display: inline-block !important;
+    width: 30% !important;
+}
+
+span.color-leg-canal{    
+    background: green;
+    color: green !important;
+    display: inline-block !important;
+    width: 30% !important;
+}
+
+span.color-leg-outros{    
+    background: red;
+    color: red !important;
+    display: inline-block !important;
+    width: 30% !important;
+}
+
+
+
+.num-dente{
+    background: #3c8dbc;
+    border-radius: 18px;
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.altura{
+    height: 70px;
+}
+
+
+#nome-error{
+    color: red;
+}
+
+#registro-error{
+    color: red;
+}
+
+#telefone-error{
+    color: red;
+}
+
+#especialidade-error{
+    color: red;
+}
+
+.label-yellow{
+    background-color:#f39c12 !important;
+}
+
+.label-green{
+    background-color:#00a65a !important;
+}
+
+.label-red{
+    background-color:#dd4b39 !important;
+}
+
+.label-orange{
+    background-color:#ff851b !important;
+}
+
+.text-yellow{
+    color:#f39c12 !important;
+}
+
+.text-green{
+    color:#00a65a !important;
+}
+
+.text-orange{
+    color:#ff851b !important;
+}
+
+.center-text-td{
+    text-align: center !important;
+}
+
+
+
+/*Odontograma Responsivo*/
+/*@media screen and (max-width:320px){
+    .larg-dente-comp{
+        display: inline-block;
+        width: 5.09% !important; 
+    }
+}
+
+@media screen and (max-width:360px){
+    .larg-dente-comp{
+        display: inline-block;
+        width: 5.25% !important;
+    }
+}
+
+@media screen and (max-width:768px){
+    .larg-dente-comp{
+        display: inline-block;
+        width: 5.19% !important;
+    }
+}
+
+@media screen and (max-width:800px){
+    .larg-dente-comp{
+        display: inline-block;
+        width: 5.45% !important;
+    }
+}
+
+@media screen and (max-width:980px){
+    .larg-dente-comp{
+        display: inline-block;
+        width: 5.70% !important;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .larg-dente-comp{
+        display: inline-block;
+        width: 5.85% !important;
+    }
+}
+@media screen and (max-width:1920px){
+    .larg-dente-comp{
+        display: inline-block;
+        width: 5.89% !important;
+    }
+}*/
+
+.larg-dente-comp{
+        display: inline-block;
+        width: 5.09% !important;
+    }
